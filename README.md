@@ -1,25 +1,21 @@
-Introduction
-The Drone Race Lap Tracker is a graphical user interface (GUI) application that allows you to track lap times for a drone race. The application can store lap times for up to four racers and display the lap times in a separate window. The lap times can also be copied to the clipboard for easy sharing.
-Getting Started
-To start the application, double-click on the drone_race_lap_tracker.py file. This will open the GUI window.
-Entering Racer Names and Lap Times
-To enter the names of the racers and their lap times, follow these steps:
-Type the name of the first racer in the "Racer 1 Name" field.
-Type the lap time for the first racer in the "Racer 1 Lap Time" field.
-Repeat steps 1 and 2 for the other racers, using the "Racer 2 Name" and "Racer 2 Lap Time" fields for the second racer, and so on.
-You can enter lap times in any format you like (e.g., "1:23.45", "1m23s450ms", etc.), as long as the lap time is a valid number.
-Submitting Lap Times
-To submit the lap times and display them in a separate window, click the "Submit" button. The lap times for each racer will be displayed in a list in the lap time window. The list will show the racer name and the lap time.
-Copying Lap Times to the Clipboard
-To copy the lap times to the clipboard, click the "Copy to Clipboard" button in the lap time window. This will copy the lap times to your clipboard so you can easily share them with others.
-Exiting the Application
-To exit the application, click the "Exit" button in the main window.
-Adding Additional Racers
-To add additional racers, follow these steps:
-Click the "Add Racer" button in the main window. This will add a new set of fields for the racer name and lap time.
-Enter the name and lap time for the new racer.
-Repeat steps 1 and 2 for each additional racer you want to add.
-You can add up to four racers in total.
-Conclusion
-The Drone Race Lap Tracker is a simple and easy-to-use application that can help you track lap times for a drone race. With its intuitive GUI and convenient features, it's a great tool for anyone who wants to keep track of lap times for multiple racers.
+Using the Program
+When you run the LapTracker program, a GUI window will appear. The window will contain four rows, each corresponding to a racer. Each row will have two fields: a racer name field and a lap time field.
 
+To enter a racer name, click on the corresponding entry field and type the name. To enter a lap time, click on the corresponding entry field and type the time in the format mm:ss.ms. For example, to enter a lap time of 1 minute and 23.456 seconds, type 01:23.456.
+
+You can leave the name and lap time fields blank if a racer is not participating in the race.
+
+To submit the lap times, click on the Submit button at the bottom of the window. If any of the racer names or lap times are invalid, an error message will be displayed.
+
+Once you have submitted the lap times, a new window will appear displaying the lap times for each racer. The lap times will be listed in order from fastest to slowest.
+
+To exit the program, click on the Exit button at the bottom of the main window.
+
+Troubleshooting
+If you encounter any issues while using the LapTracker program, try the following troubleshooting steps:
+
+Make sure that you have installed the necessary libraries as described in step 2 of the "Getting Started" section.
+
+If you are unable to run the program, make sure that you have navigated to the correct directory in your command prompt or terminal.
+
+If you encounter any error messages while using the program, read the message carefully to determine the issue. If you are unable to resolve the issue, try searching for the error message online or asking for help on a programming forum or community.
