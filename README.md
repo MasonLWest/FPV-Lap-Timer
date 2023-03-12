@@ -6,17 +6,16 @@ To use the LapTracker program, follow these steps:
 
 Install Python 3.x on your computer, if it is not already installed. You can download Python from the official Python website at https://www.python.org/downloads/.
 
-Install the necessary libraries by running the following command in your command prompt or terminal:
+Install the necessary libraries by running the following command in your command prompt or terminal: pip install tkinter, pip install pillow
 
-Copy code
+
 pip install tkinter pillow requests
 Download the LapTracker program file and save it to your computer.
 
 Open the command prompt or terminal and navigate to the directory where you saved the LapTracker program file.
 
-Run the LapTracker program by entering the following command:
+Run the LapTracker program by entering the following command: python FPVLapTrackerFina2l.py
 
-Copy code
 python laptracker.py
 Using the Program
 When you run the LapTracker program, a GUI window will appear. The window will contain four rows, each corresponding to a racer. Each row will have two fields: a racer name field and a lap time field.
