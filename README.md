@@ -1,3 +1,23 @@
+LapTracker User Manual
+LapTracker is a simple program for keeping track of lap times for up to four racers. The program features a graphical user interface (GUI) that allows users to enter racer names and lap times, and view a summary of lap times for each racer.
+
+Getting Started
+To use the LapTracker program, follow these steps:
+
+Install Python 3.x on your computer, if it is not already installed. You can download Python from the official Python website at https://www.python.org/downloads/.
+
+Install the necessary libraries by running the following command in your command prompt or terminal:
+
+Copy code
+pip install tkinter pillow requests
+Download the LapTracker program file and save it to your computer.
+
+Open the command prompt or terminal and navigate to the directory where you saved the LapTracker program file.
+
+Run the LapTracker program by entering the following command:
+
+Copy code
+python laptracker.py
 Using the Program
 When you run the LapTracker program, a GUI window will appear. The window will contain four rows, each corresponding to a racer. Each row will have two fields: a racer name field and a lap time field.
 
